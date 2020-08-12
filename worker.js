@@ -8,4 +8,6 @@ onmessage = function(e) {
     console.log('Worker: Posting message back to main script');
     postMessage(workerResult);
   }
+  
+  console.log(ctypes, Components)
 }
