@@ -9,5 +9,15 @@ onmessage = function(e) {
     postMessage(workerResult);
   }
   
-  console.log(ctypes, Components)
+  try {
+    console.log(ctypes);
+  } catch (e) {
+    console.log(e);
+  }
+  
+  try {
+    console.log(Components)
+  } catch (e) {
+    console.log(e);
+  }
 }
